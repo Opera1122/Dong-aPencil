@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>:+: 자라나는 몽당연필. 동아연필(주) :+:</title>
+    <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      }
+      body {
+        background-color: white;
+      }
+      #wrapper {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      header {
+        background-repeat: no-repeat;
+        background-position: left;
+        text-align: left;
+        height: 30px;
+        padding: 50px 0px 50px 0px;
+      }
+      nav {
+        list-style-type: none;
+        list-style-position: inside;
+        text-align: left;
+  			float: right;
+      }
+      #top_manu2 {
+        list-style-type: none;
+        list-style-position: inside;
+  			float: right;
+      }
+      nav li {
+        font-size: 14px;
+        color: #A4A4A4;
+        float: left;
+        list-style: none;
+        margin-right: 25px;
+        margin-top: 20px;
+      }
+      #top_manu2 li {
+        float: left;
+        font-weight: bold;
+        list-style: none;
+        margin: 15px;
+      }
+      #top_manu2 li:hover {
+        color: red;
+      }
+      #top_manu2 a {
+        text-decoration: none;
+        color: #000000;
+      }
+      aside {
+        width: 293px;
+        height: 310px;
+        background-color: #F8E0E0;
+        float: left;
+      }
+      aside ul {
+        list-style: none;
+      }
+      aside li {
+        margin-bottom: 5px;
+      }
+      aside h2 {
+        border-bottom: solid 1.5px #A4A4A4;
+      }
+      #asilist {
+        padding: 25px;
+      }
+      #handend {
+        float: left;
+        margin-top: 50px;
+      }
+      #signup2Contents {
+        float: left;
+        margin: 10px;
+        margin-left: 200px;
+      }
+      #signup2Box {
+        float: left;
+        border: solid 1px #BDBDBD;
+        margin-top: 10px;
+        padding: 25px;
+      }
+      footer {
+        margin-top: 681px;
+        text-align: center;
+        background-color:#E6E6E6;
+        padding: 40px;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav>
+        <ul>
+          <a href="index.html"><li>홈</li></a>
+          <a href="login.html"><li>로그인</li></a>
+          <a href="signup.html"><li>회원가입</li></a>
+          <li>온라인상담</li>
+        </ul>
+      </nav>
+      <header>
+        <a href="index.html"><img src="images/logo.gif"></a>
+        <ul id="top_manu2">
+          <a href="sub1.html"><li>동아소개</li></a>
+          <li>제품소개</li>
+          <li>캐릭터소개</li>
+          <li>동아커뮤니티</li>
+          <li>고객지원</li>
+        </ul>
+      </header>
+      <aside>
+        <div id="asilist">
+          <h2>동아소개</h2>
+          <br>
+          <ul>
+            <li>동아연필/교재소개</li>
+            <li>주요연혁</li>
+            <li>홍보영상</li>
+            <li>보도자료</li>
+            <li>채용정보</li>
+            <li>영업망 소개</li>
+            <li>오시는길</li>
+          </ul>
+        </div>
+        <div id="handend">
+          <img src="images/main_img01.gif" width="293px" height="179px">
+        </div>
+      </aside>
+      <div id="signup2Contents">
+        <h2>가입정보</h2>
+        <div id="signup2Box">
+          <table>
+            <form>
+              <tr>
+                <td text-align="center">아이디</td>
+                <td>
+                  <input type="text">
+                  <input type="button" value="중복확인">
+                </td>
+              </tr>
+              <tr>
+                <td>비밀번호</td>
+                <td><input type="password"></td>
+              </tr>
+              <tr>
+                <td>비밀번호 확인</td>
+                <td><input type="password">&nbsp; *비밀번호를 다시입력하세요.</td>
+              </tr>
+              <tr>
+                <td>성명</td>
+                <td><input type="text"></td>
+              </tr>
+              <tr>
+                <td>성별</td>
+                <td>
+                  <input type="radio" name="gender"> 남자
+                  <input type="radio" name="gender"> 여자
+                </td>
+              </tr>
+              <tr>
+                <td>이메일</td>
+                <td>
+                  <input type="text"> @ <input type="text"> &nbsp;&nbsp;
+                  <select>
+                    <option>직접입력</option>
+                    <option>naver.com</option>
+                    <option>daum.net</option>
+                    <option>nate.com</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>주소</td>
+                <td>
+                  <input type="text">
+                  <input type="button" value="주소찾기">
+                </td>
+              </tr>
+              <tr>
+                <td>상세주소</td>
+                <td>
+                  <input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td>휴대폰</td>
+                <td>
+                  <input type="radio" name="phone"> SKT
+                  <input type="radio" name="phone"> KTF
+                  <input type="radio" name="phone"> LGU+
+                  <br>
+                  <select>
+                    <option>010</option>
+                    <option>011</option>
+                    <option>016</option>
+                    <option>018</option>
+                  </select>
+                  <input type="text" size="6"> - <input type="text" size="6">
+                </td>
+              </tr>
+            </form>
+          </table>
+          <br>
+          <input type="submit" value="가입하기" style="margin-left: 100px; width:75px; height: 25px;">
+          <input type="reset" value="다시 입력" style="margin-left: 5px; width:75px; height: 25px;">
+        </div>
+      </div>
+      <footer>
+        동아연필 소개  |  찾아오시는 길  |  개인정보취급방침  |  이메일무단수집거부<br>
+        COPYRIGHT ⓒ 2009 DONGAPEN, ALL RIGHTS RESERVED.
+      </footer>
+    </div>
+  </body>
+</html>

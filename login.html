@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>:+: 자라나는 몽당연필. 동아연필(주) :+:</title>
+    <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      }
+      body {
+        background-color: white;
+      }
+      #wrapper {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      header {
+        background-repeat: no-repeat;
+        background-position: left;
+        text-align: left;
+        height: 30px;
+        padding: 50px 0px 50px 0px;
+      }
+      nav {
+        list-style-type: none;
+        list-style-position: inside;
+        text-align: left;
+  			float: right;
+      }
+      #top_manu2 {
+        list-style-type: none;
+        list-style-position: inside;
+  			float: right;
+      }
+      nav li {
+        font-size: 14px;
+        color: #A4A4A4;
+        float: left;
+        list-style: none;
+        margin-right: 25px;
+        margin-top: 20px;
+      }
+      #top_manu2 li {
+        float: left;
+        font-weight: bold;
+        list-style: none;
+        margin: 15px;
+      }
+      #top_manu2 li:hover {
+        color: red;
+      }
+      #top_manu2 a {
+        text-decoration: none;
+        color: #000000;
+      }
+      aside {
+        width: 293px;
+        height: 310px;
+        background-color: #F8E0E0;
+        float: left;
+      }
+      aside ul {
+        list-style: none;
+      }
+      aside li {
+        margin-bottom: 5px;
+      }
+      aside h2 {
+        border-bottom: solid 1.5px #A4A4A4;
+      }
+      #asilist {
+        padding: 25px;
+      }
+      #handend {
+        float: left;
+        margin-top: 50px;
+      }
+      #loginContents {
+        float: left;
+        margin: 10px;
+        margin-left: 200px;
+      }
+      #loginBox {
+        float: left;
+        border: solid 1px #BDBDBD;
+        margin-top: 10px;
+        padding: 25px;
+      }
+      #idSave {
+        margin-top: 12px;
+      }
+      #signupButton {
+        float: left;
+        text-align: center;
+        margin: 5px;
+        margin-top: 15px;
+        padding-top: 10px;
+        width: 110px;
+        height: 35px;
+        color: #FFFFFF;
+        background-color: #6E6E6E;
+      }
+      #findID {
+        float: left;
+        text-align: center;
+        margin: 5px;
+        margin-top: 15px;
+        padding-top: 10px;
+        width: 110px;
+        height: 35px;
+        border: solid 1px #6E6E6E;
+      }
+      #findPW {
+        float: left;
+        text-align: center;
+        margin: 5px;
+        margin-top: 15px;
+        padding-top: 10px;
+        width: 110px;
+        height: 35px;
+        border: solid 1px #6E6E6E;
+      }
+      #Non-members {
+        margin-top: 150px;
+      }
+      footer {
+        margin-top: 681px;
+        text-align: center;
+        background-color:#E6E6E6;
+        padding: 40px;
+        color: #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav>
+        <ul>
+          <a href="index.html"><li>홈</li></a>
+          <a href="login.html"><li>로그인</li></a>
+          <a href="signup.html"><li>회원가입</li></a>
+          <li>온라인상담</li>
+        </ul>
+      </nav>
+      <header>
+        <a href="index.html"><img src="images/logo.gif"></a>
+        <ul id="top_manu2">
+          <a href="sub1.html"><li>동아소개</li></a>
+          <li>제품소개</li>
+          <li>캐릭터소개</li>
+          <li>동아커뮤니티</li>
+          <li>고객지원</li>
+        </ul>
+      </header>
+      <aside>
+        <div id="asilist">
+          <h2>동아소개</h2>
+          <br>
+          <ul>
+            <li>동아연필/교재소개</li>
+            <li>주요연혁</li>
+            <li>홍보영상</li>
+            <li>보도자료</li>
+            <li>채용정보</li>
+            <li>영업망 소개</li>
+            <li>오시는길</li>
+          </ul>
+        </div>
+        <div id="handend">
+          <img src="images/main_img01.gif" width="293px" height="179px">
+        </div>
+      </aside>
+      <div id="loginContents">
+        <h2>로그인</h2>
+        <div id="loginBox">
+          <h3>회원 로그인</h3>
+          <br>
+          <form>
+            <input type="text" name="id" placeholder="아이디" style="width: 300px; height: 25px; margin-bottom: 10px;"><br>
+            <input type="password" name="pw" placeholder="비밀번호" style="width: 300px; height: 25px;">
+            <input type="submit" name="login" value="로그인" style="width:50px; height:25px;"><br>
+            <input type="checkbox" id="idSave">아이디 저장<br><br><hr>
+          </form>
+          <a href="signup.html" style="text-decoration: none; color: #000000;">
+            <div id="signupButton">
+              회원가입
+            </div>
+          </a>
+          <div id="findID">
+            아이디 찾기
+          </div>
+          <div id="findPW">
+            비밀번호 찾기
+          </div>
+          <div id="Non-members">
+            <h3>비회원 주문조회</h3>
+            <br>
+            <form>
+              <input type="text" name="orderName" placeholder="주문자명" style="width: 300px; height: 25px; margin-bottom: 10px;"><br>
+              <input type="password" name="orderNumber" placeholder="주문번호" style="width: 300px; height: 25px;">
+              <input type="submit" name="login" value="확인" style="width:50px; height:25px;"><br>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        동아연필 소개  |  찾아오시는 길  |  개인정보취급방침  |  이메일무단수집거부<br>
+        COPYRIGHT ⓒ 2009 DONGAPEN, ALL RIGHTS RESERVED.
+      </footer>
+    </div>
+  </body>
+</html>
